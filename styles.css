@@ -11,8 +11,111 @@
   src: local("Bright"), url("bright.woff") format("woff");
 }
 
+@font-face {
+  font-family: "Retro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Retro"), url("retro.woff") format("woff");
+}
+
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 * {
+  color: #233eff;
+  font-family: "Roboto";
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  background: #f4c5cd;
+}
+
+::selection {
+  background: #f4c5cd;
+}
+
+.numbers {
+  font-family: "Retro";
+}
+
+a,
+h2,
+h3,
+.collapse-title {
   font-family: "Bright";
+}
+.collapse-title {
+  @apply text-2xl pl-4;
 }
 
 .backdrop {
