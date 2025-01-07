@@ -1653,6 +1653,10 @@ video {
   height: 100%;
 }
 
+.h-\[100svh\] {
+  height: 100svh;
+}
+
 .max-h-full {
   max-height: 100%;
 }
