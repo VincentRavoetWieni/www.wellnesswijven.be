@@ -1641,8 +1641,8 @@ video {
   height: 50%;
 }
 
-.h-\[100dvh\] {
-  height: 100dvh;
+.h-\[100svh\] {
+  height: 100svh;
 }
 
 .h-\[60\%\] {
@@ -1651,10 +1651,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[100svh\] {
-  height: 100svh;
 }
 
 .max-h-full {
