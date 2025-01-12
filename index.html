@@ -89,19 +89,24 @@
     <link rel="manifest" href="./img/site.webmanifest" />
   </head>
 
-  <body class="h-[100svh] bg-[#D5E2F3] w-full">
+  <body class="bg-[#D5E2F3] w-full">
     <!-- Hoofdinhoud van de pagina -->
-    <main class="flex flex-col h-full w-full bg-[#D5E2F3]">
-      <section id="inschrijven" class="mx-auto h-1/2">
+    <main
+      class="h-[100svh] grid grid-rows-2 w-full bg-[#D5E2F3] max-w-3xl mx-auto"
+    >
+      <section id="inschrijven" class="flex flex-col justify-center">
         <h1 class="hidden">Wellness Wijven</h1>
         <img
           src="./img/logo.webp"
           alt="Wellness Wijven"
-          class="max-h-full w-auto mt-4 px-4 motion-opacity-in-0 motion-translate-y-in-50 motion-duration-[1.5s] motion-blur-in-sm"
+          class="mt-4 px-4 h-full motion-opacity-in-0 motion-translate-y-in-50 motion-duration-[1.5s] motion-blur-in-sm object-contain"
         />
       </section>
 
-      <section id="action" class="grid place-items-center small:hidden mx-auto">
+      <section
+        id="action"
+        class="grid place-items-center small:hidden mx-auto flex-grow"
+      >
         <a
           class="inschrijven-button mx-4 text-3xl bg-white w-fit px-2 py-2 mt-4 block rounded-md text-[#233EFF] tracking-wider hover:bg-[#233EFF] hover:text-white transition-colors"
           href="#"
@@ -113,12 +118,12 @@
 
       <section
         id="hosts"
-        class="mx-auto h-1/2 pt-2 flex flex-col justify-end relative"
+        class="pt-2 flex flex-col justify-end relative flex-1"
       >
         <img
           src="./img/wijven.webp"
           alt="Bauke en Elien"
-          class="max-h-full px-4 object-cover"
+          class="px-4 h-full object-contain"
         />
         <div
           class="w-full h-[60%] absolute place-items-center small:grid after:w-full after:h-24 after:bg-gradient-to-b after:from-transparent after:to-[#D5E2F3] after:absolute after:bottom-0 after:left-0 after:block after:content-['']"
